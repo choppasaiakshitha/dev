@@ -499,3 +499,6 @@ Expected Output
 ✅GitHub Actions shows 2 passed with green checkmarks. Every push to main automatically runs the tests.
 ↑ back to top
 24CS2019 – DevOps Laboratory  ·  Karunya Institute of Technology and Sciences  ·  Division of Computer Science and Engineering
+git add .
+git commit -m "Added Python test workflow"
+git push origin main
