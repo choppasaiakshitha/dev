@@ -41,7 +41,7 @@ git merge feature/hello
 git push origin main
 git log --oneline --graph
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Q 02**
 Containerise a Flask application using Docker and deploy the image to Docker Hub.
 Docker Flask Docker Hub
@@ -90,7 +90,7 @@ docker push <dockerhub-username>/flask-app:latest
 Expected Output
 ✅Browser shows Hello from Dockerised Flask! — Image visible on Docker Hub under your repository.
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Q 03**
 
 Develop and demonstrate a simple monolithic application model using Python or Flask.
@@ -142,7 +142,7 @@ curl -X POST http://localhost:5000/students \
 # List all students
 curl http://localhost:5000/students
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Q 04**
 
 Create a CI pipeline using GitHub Actions to build and push a Docker image of a Python app to Docker Hub.
@@ -184,7 +184,7 @@ jobs:
 Expected Output
 ✅Every push to main triggers a green workflow run in the Actions tab and the image appears on Docker Hub.
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Q 05**
 
 Configure a Jenkins pipeline to automate the building and deployment of a Dockerized application from GitHub.
@@ -265,7 +265,7 @@ Step 4 – Jenkins pipeline setup
 3. Manage Jenkins → Credentials → Add Docker Hub credentials with ID dockerhub-creds
 4. Click Build Now
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Q 06**
 
 Use kubectl commands to create, scale, and manage Kubernetes resources like pods and deployments.
@@ -328,7 +328,7 @@ bashcopy
 kubectl apply -f deployment.yaml
 kubectl get all
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Q 07**
 
 Create a GitHub Actions pipeline to automatically build and push a Docker image of a Python app to Docker Hub.
@@ -369,7 +369,7 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/python-app:latest
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Q 08**
 
 Containerise a Flask application using Docker.
@@ -409,7 +409,7 @@ docker run -d -p 5000:5000 --name myflask flask-container
 docker ps
 # Visit http://localhost:5000
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Q 09**
 
 Clone a GitHub repository, modify a file and push the changes back to the repository.
@@ -436,7 +436,7 @@ git commit -m "docs: update README with new content"
 git push origin main
 git log --oneline -3
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Q 10**
 
 Configure a GitHub Actions workflow to automatically build and test a Python application.
